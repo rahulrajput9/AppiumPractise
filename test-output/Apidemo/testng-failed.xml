@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [Apidemo]" guice-stage="DEVELOPMENT">
+  <listeners>
+    <listener class-name="Base.Listners"/>
+  </listeners>
+  <test thread-count="5" name="Swipe Test(failed)">
+    <classes>
+      <class name="testsPackage.SwipeTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="preSetup"/>
+          <include name="testSwipeNegativeFAIL"/>
+          <include name="testSwipe"/>
+        </methods>
+      </class> <!-- testsPackage.SwipeTest -->
+    </classes>
+  </test> <!-- Swipe Test(failed) -->
+</suite> <!-- Failed suite [Apidemo] -->

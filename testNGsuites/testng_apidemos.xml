@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Apidemo">
+	<listeners>
+		<listener class-name="Base.Listners" />
+	</listeners>
+
+	<test thread-count="5" name="Drag and Drop Test">
+		<classes>
+			<class name="testsPackage.DragDropTest" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Scroll Test">
+		<classes>
+			<class name="testsPackage.ScrollTest" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="click Test">
+		<classes>
+			<class name="testsPackage.clickTest" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Miscellaneous Test">
+		<classes>
+			<class name="testsPackage.MiscellaneousTest" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Swipe Test">
+		<classes>
+			<class name="testsPackage.SwipeTest" />
+		</classes>
+	</test>
+
+	<test thread-count="5" name="Long Press Test">
+		<classes>
+			<class name="testsPackage.LongPressTest" />
+
+		</classes>
+	</test>
+
+</suite> <!-- Suite -->
